@@ -44,7 +44,7 @@ public class Cucumber {
 		
 	}
 
-	@And("Submit")
+	@And("Submit buttont")
 	public void submit() {
 		
 		driver.findElement(By.id("loginbutton")).click();
