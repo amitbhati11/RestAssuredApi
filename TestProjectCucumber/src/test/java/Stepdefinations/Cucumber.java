@@ -56,5 +56,6 @@ public class Cucumber {
 	public void click_on_button() {
 	  
 		System.out.println("Sucessfully");
+		driver.close();
 	}
 }
