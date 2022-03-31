@@ -14,5 +14,4 @@ plugin= {"pretty","html:target/Html/Htmlreport.html","json:target/Jsonreport/rep
 public class Testrunner {
 	
 
-
 }
