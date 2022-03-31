@@ -57,5 +57,6 @@ public class Cucumber {
 	  
 		System.out.println("Sucessfully");
 		driver.close();
+		driver.quit();
 	}
 }
