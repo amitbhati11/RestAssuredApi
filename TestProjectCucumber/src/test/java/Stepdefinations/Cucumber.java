@@ -36,10 +36,12 @@ public class Cucumber {
 	}
 
 	@When("Enter username and password")
-	public void enter_username_and_password() {
+	public void enter_username_and_password() throws InterruptedException {
 		
 		driver.findElement(By.name("email")).sendKeys("9821416708");
 		driver.findElement(By.name("pass")).sendKeys("9313421910");
+		
+		Thread.sleep(300);
 	 
 		
 	}
